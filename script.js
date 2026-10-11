@@ -24,3 +24,7 @@ function toFahrenheit(celsius) {
 function setTemperatureUnit(targetUnit) {
   console.log('Switching unit to', targetUnit);
 }
+function processForecast(forecastData) {
+  // Groups 3-hour data into 5 days
+  return [];
+}
