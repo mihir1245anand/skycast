@@ -28,3 +28,10 @@ function processForecast(forecastData) {
   // Groups 3-hour data into 5 days
   return [];
 }
+function handleGeolocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(pos => {
+      console.log('Lat:', pos.coords.latitude, 'Lon:', pos.coords.longitude);
+    });
+  }
+}
