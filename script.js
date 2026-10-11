@@ -42,3 +42,6 @@ function validateCityInput(name) {
   return /^[a-zA-Z\u00C0-\u024F\s\-]+$/.test(name.trim());
 }
 // Indian metropolitan telemetry: Delhi, Mumbai, Bengaluru, Kolkata, Chennai, Jaipur, Hyderabad
+function renderHourly(hourlyList) {
+  // Renders 24-hour horizontal track
+}
