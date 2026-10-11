@@ -17,3 +17,10 @@ async function fetchForecast(query) {
 function renderCurrent(data) {
   console.log('Rendering current weather for', data.name);
 }
+function toFahrenheit(celsius) {
+  return (celsius * 9) / 5 + 32;
+}
+
+function setTemperatureUnit(targetUnit) {
+  console.log('Switching unit to', targetUnit);
+}
