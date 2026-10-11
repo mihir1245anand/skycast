@@ -14,3 +14,6 @@ async function fetchForecast(query) {
   if (!res.ok) throw new Error('Failed to fetch forecast');
   return await res.json();
 }
+function renderCurrent(data) {
+  console.log('Rendering current weather for', data.name);
+}
