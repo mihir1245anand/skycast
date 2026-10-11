@@ -26,3 +26,6 @@ body {
   backdrop-filter: blur(20px);
   border-radius: 20px;
 }
+body.theme-clear { --bg-gradient-start: #0369a1; --bg-gradient-mid: #0284c7; --bg-gradient-end: #075985; }
+body.theme-clouds { --bg-gradient-start: #242f3d; --bg-gradient-mid: #1a232f; --bg-gradient-end: #10161f; }
+body.theme-rain { --bg-gradient-start: #0c213a; --bg-gradient-mid: #102a4a; --bg-gradient-end: #081524; }
