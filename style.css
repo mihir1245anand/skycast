@@ -20,3 +20,9 @@ body {
   background: linear-gradient(135deg, var(--bg-gradient-start), var(--bg-gradient-mid), var(--bg-gradient-end));
   color: var(--text-primary);
 }
+.current-card, .forecast-card, .telemetry-card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+}
