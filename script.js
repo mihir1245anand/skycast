@@ -35,3 +35,6 @@ function handleGeolocation() {
     });
   }
 }
+function saveLastCity(city) {
+  localStorage.setItem('weather_last_city', city);
+}
