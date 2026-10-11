@@ -1,0 +1,22 @@
+:root {
+  --font-main: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.8);
+  --accent-cyan: #38bdf8;
+  --bg-gradient-start: #0b1329;
+  --bg-gradient-mid: #141c38;
+  --bg-gradient-end: #090d1f;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--bg-gradient-start), var(--bg-gradient-mid), var(--bg-gradient-end));
+  color: var(--text-primary);
+}
