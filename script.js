@@ -48,3 +48,6 @@ function renderHourly(hourlyList) {
 function renderMetrics(data) {
   // Renders AQI, UV, Wind, Humidity, Sun Cycle
 }
+function handleInputSuggestions() {
+  // Live dropdown suggestions for Indian & global cities
+}
