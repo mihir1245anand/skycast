@@ -38,3 +38,6 @@ function handleGeolocation() {
 function saveLastCity(city) {
   localStorage.setItem('weather_last_city', city);
 }
+function validateCityInput(name) {
+  return /^[a-zA-Z\u00C0-\u024F\s\-]+$/.test(name.trim());
+}
