@@ -45,3 +45,6 @@ function validateCityInput(name) {
 function renderHourly(hourlyList) {
   // Renders 24-hour horizontal track
 }
+function renderMetrics(data) {
+  // Renders AQI, UV, Wind, Humidity, Sun Cycle
+}
